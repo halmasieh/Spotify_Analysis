@@ -23,6 +23,16 @@ Conflict resolution will be decided by a majority rule. That said, all group mem
 ### Data Sources
 * By analyzing available stock market data and extrapolating perceived key performance indicators we will create a focused dataset specialized for our analysis. Initial data has been retrieved from records from the Federal Reserve. The group is also open to exploring additional datasets to strengthen the integrity and breadth of our existing database. Additional data may be added on an as needed basis or for the purposes of expanding on the initial analysis.
 ### Technologies to be used
+Data Hosting
+* SQL
+ETL & Analysis
+* Python / Jupyter Notebooks
+ Outcome / Dashboard
+* Tableau
+Communication
+* Slack
+* Zoom
+* Google Meets
 
 ### Segment 1
 
@@ -35,6 +45,10 @@ Conflict resolution will be decided by a majority rule. That said, all group mem
 * Segment 4
 
 ## Roles and Responsibilities:
-* Project Oversight
+### Project Oversight
+#### Roles:
+
+* Square: Homa & Joshua
+
 * Data Gathering
 
