@@ -40,19 +40,16 @@ Communication
 
 ### Segment 1
 
-### Build a simple model
+#### Build a simple model
 
-### Connect the model to a fabricated DataBase
+#### Connect the model to a fabricated DataBase
 
-* Segment 2
-* Segment 3
-* Segment 4
+### Segment 2
+### Segment 3
+### Segment 4
 
 ## Roles and Responsibilities:
 ### Project Oversight
-#### Roles:
 
-* Square: Homa & Joshua
-
-* Data Gathering
+### Data Gathering
 
