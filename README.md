@@ -26,9 +26,9 @@ Conflict resolution will be decided by a majority rule. That said, all group mem
 Data Hosting
 * SQL
 ETL & Analysis
-* Python / Jupyter Notebooks
+* Python / Jupyter Notebooks<br/>
  Outcome / Dashboard
-* Tableau
+* Tableau<br/>
 Communication
 * Slack
 * Zoom
