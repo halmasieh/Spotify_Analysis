@@ -1,4 +1,4 @@
-# stock_market_prediction / analysis
+# spotify_analysis
 ## Objective:
 The project will explore the relationships within a focused dataset of market key performance indicators in order to establish a model to predict stock behaviour and potential price point of a given stock. By developing a thorough understanding of our chosen indicators we will deteremine their statistical signifiance in relation to market behaviour as well any correlations that may exist between these independant indicators.
 
