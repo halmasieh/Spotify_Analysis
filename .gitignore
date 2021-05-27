@@ -1,5 +1,12 @@
-# ignore resources folder
-dir_to_ignore/Resources
+# ignore the files in resources folder
+.cleaned_tracks.csv
+.complete_tracks_df.gz
+.frequency_by_song.csv
+.frequency_count.csv
+.new_tracks.csv.gz
+.playlist_frequency.csv
+.spotify.csv
+tracks_df.csv
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
