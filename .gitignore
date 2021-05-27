@@ -1,5 +1,5 @@
 # ignore resources folder
-folder_to_ignore/Resources
+dir_to_ignore/Resources
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
