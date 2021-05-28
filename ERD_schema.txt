@@ -1,0 +1,62 @@
+spotify
+- 
+track_id varchar pk
+track_name varchar pk
+artists_name varchar pk
+artist_id varchar pk
+genres varchar
+release_date date
+track_popularity int
+duration_ms int
+explicit int
+key int
+time_signature int
+followers int
+artist_popularity int
+unique_playlists int
+danceability float
+energy float
+loudness float
+mode float
+speechiness float
+acousticness float
+instrumentalness float
+liveness float
+valence float
+tempo float
+
+tracks
+-
+track_id varchar pk fk - spotify.track_id
+track_name varchar pk fk - spotify.track_name
+artists_name varchar pk fk - spotify.artists_name
+artist_id varchar pk fk - spotify.artist_id
+release_date date
+
+tracks_metrics
+-
+track_id varchar pk fk - spotify.track_id
+track_popularity int
+duration_ms int
+explicit int
+key int
+time_signature int
+unique_playlists int
+danceability float
+energy float
+loudness float
+mode float
+speechiness float
+acousticness float
+instrumentalness float
+liveness float
+valence float
+tempo float
+
+artists
+-
+artist_id varchar pk fk - spotify.artist_id
+artists_name varchar pk fk - spotify.artists_name
+genres varchar
+followers int
+artist_popularity int
