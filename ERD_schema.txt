@@ -2,7 +2,7 @@ spotify
 - 
 track_id varchar pk
 track_name varchar pk
-artists_name varchar
+artists_name varchar pk
 artist_id varchar pk
 genres varchar
 release_date date
@@ -56,7 +56,7 @@ tempo float
 artists
 -
 artist_id varchar pk fk - spotify.artist_id
-artists_name varchar
+artists_name varchar pk fk - spotify.artists_name
 genres varchar
 followers int
 artist_popularity int
