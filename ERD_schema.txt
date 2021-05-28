@@ -27,15 +27,15 @@ tempo float
 
 tracks
 -
-track_id varchar pk fk - spotify.track_id
-track_name varchar pk fk - spotify.track_name
-artists_name varchar pk fk - spotify.artists_name
-artist_id varchar pk fk - spotify.artist_id
+track_id varchar pk fk >- spotify.track_id 
+track_name varchar pk fk >- spotify.track_name
+artists_name varchar pk fk >- spotify.artists_name
+artist_id varchar pk fk >- spotify.artist_id
 release_date date
 
 tracks_metrics
 -
-track_id varchar pk fk - spotify.track_id
+track_id varchar pk fk -< tracks.track_id
 track_popularity int
 duration_ms int
 explicit int
@@ -55,8 +55,8 @@ tempo float
 
 artists
 -
-artist_id varchar pk fk - spotify.artist_id
-artists_name varchar pk fk - spotify.artists_name
+artist_id varchar pk fk >-< spotify.artist_id
+artists_name varchar pk fk >-< spotify.artists_name
 genres varchar
 followers int
 artist_popularity int
