@@ -1,9 +1,7 @@
 # Spotify Analysis
 
 ## Objective:
-Spotify's Popularity index uses an algorithm to evaluate a song, largely based off of the number of plays a song gets. The better the evaluation, the more likely an artist and their music will be recommended to to a larger number of viewers. Said simply, the greater a song's Popularity index, the greater its presence in the Spotify community.
-
-Important to note is that Popularity is only officially available at the song level, there is no official Popularity at the artist level.
+Spotify's Popularity index uses an algorithm to evaluate a song, largely based off of the number of plays a song gets. The better the evaluation, the more likely an artist and their music will be recommended to a larger number of viewers. Said simply, the greater a song's Popularity index, the greater its presence in the Spotify community.
 
 The goal of this project will be to determine what features impact the Popularity index of any given song on Spotify. By analyzing various physical features of a song as well as some peripherary features, we look to identify a pattern within how a song garners a successful Popularity index. Using this knowledge, we hope to be able to create a model that can predict the popularity of a song based on on these features.
 
@@ -11,7 +9,7 @@ The goal of this project will be to determine what features impact the Popularit
 
 ### Data Sources
 
-To begin this analysis, we decided to leverage an existing dataset consisting of ~600k tracks from 1922-2021 that was created from using the Spotify Web API. The data is divided into various perspectives. For our purpose, we chose to analyze Populalarity in reference to Tracks, Artists and Genres.
+To begin this analysis, we decided to leverage an existing dataset consisting of ~600k tracks from 1922-2021 that was created from the Spotify Web API. The data is divided into various perspectives. For our purpose, we chose to analyze Populalarity in reference to Tracks, Artists and Genres.
 
 #### Tracks
 The Tracks dataset examines the physical features of each individual track. This analyses will be focusing on the features listed below. 
@@ -45,7 +43,7 @@ While robust, the datasets require cleaning in order to merge them on the track_
 4. Creation of artist_popularity and tracks_popularity classifiers
 5. Scaling and normalizing of data
 
-The final datasets that will be used for the analysis can be found [here](https://www.youtube.com/watch?t=44&v=oHg5SJYRHA0&feature=youtu.be) **Link temporarily not working
+The final datasets that will be used for the analysis can be found [here](https://drive.google.com/drive/folders/17HUn1sSz_eTYTjKz1lcZEC0mF0mMt7H9?usp=sharing) 
 
 ### Purpose:
 * Through analysis of what defines a high Popularity index, we hope to better understand the 'phenomenon' identified by [The Rolling Stones:](https://www.rollingstone.com/pro/news/top-1-percent-streaming-1055005/) why is it that a platform that should theoretically encourage a more even distribution of listeners per track still resulted in the top 1% of artists monopolizing 90% of all streams?
@@ -53,7 +51,7 @@ The final datasets that will be used for the analysis can be found [here](https:
 #### Goals
 
 * What features of a song contribute to its overall popularity and which are the most significant?
-* In what what does artist popularity impact the performance of their songs?
+* In what way does artist popularity impact the performance of their songs?
 * Does the frequency at which a song appears on a unique playlist play a factor?
 
 ### Model
@@ -74,30 +72,30 @@ Result: Keep All Features
 
 Moelling
 
-The following models were examined on two classifiers: artist_popularity and tracks_popularity
+The following models were examined on two classifiers: artist_popularity and tracks_popularity. Below are summaries for tracks_popularity. For the summaries of both tracks_popularity and artist_popularity, please refert to the [Slides documentation.](https://docs.google.com/presentation/d/11CgZVxAH2_xvv5FXoSW-5RmUFnX69TW4L199me3wOss/edit?usp=sharing)
 
-#### Model 1: Logistic Regression
+#### Model 1: Logistic Regression (tracks_popularity)
 
 ![lr_summary](https://github.com/halmasieh/Spotify_Analysis/blob/Fiel_Branch/Resources/README_links/logistic_regression.png)
 
-#### Model 2: Easy Ensemble AdaBoost Classifier
+#### Model 2: Easy Ensemble AdaBoost Classifier (tracks_popularity)
 
 ![eea_summary](https://github.com/halmasieh/Spotify_Analysis/blob/Fiel_Branch/Resources/README_links/EEA.png)
 
-#### Model 3: Decision Trees
+#### Model 3: Decision Trees (tracks_popularity)
 
 ![dt_summary](https://github.com/halmasieh/Spotify_Analysis/blob/Fiel_Branch/Resources/README_links/decision_trees.png)
 
-#### Model 4: Random Forest
+#### Model 4: Random Forest (tracks_popularity)
 
 ![rf_summary](https://github.com/halmasieh/Spotify_Analysis/blob/Fiel_Branch/Resources/README_links/random_forest.png)
 
-#### Model 5: K-Fold Cross Validation
+#### Model 5: K-Fold Cross Validation (tracks_popularity)
 The Median Accuracy Score for the K-Fold cross validation, scuh that k=10, is 0.82 and the ROC curve of all the folds indicates one area. There are no significient changes to the fold accuracy score.
 
 For further details regarding the K-Fold Cross Validation as well as the other models used, please see [here](https://github.com/halmasieh/Spotify_Analysis/blob/Homa_branch/ML_models_target_artists.ipynb)
 
-#### Results
+#### Results (tracks_popularity)
 
 The reported results for both classifiers and accuracy cores show that the Random Forest Classifier is the most compatible with both datasets
 ![roc_curve](https://github.com/halmasieh/Spotify_Analysis/blob/Fiel_Branch/Resources/README_links/results.png)
