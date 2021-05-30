@@ -99,7 +99,7 @@ For further details regarding the K-Fold Cross Validation as well as the other m
 
 #### Results
 
-The reported results for both classifiers and accuracy cores show that the RAndom Forest Classifier is the most compatible with both datasets
+The reported results for both classifiers and accuracy cores show that the Random Forest Classifier is the most compatible with both datasets
 ![roc_curve](https://github.com/halmasieh/Spotify_Analysis/blob/Fiel_Branch/Resources/README_links/results.png)
 
 ### Analysis
