@@ -94,7 +94,7 @@ The following models were examined on two classifiers: artist_popularity and tra
 
 #### Model 4: Random Forest (artist_popularity)
 
-![rf_summary](https://github.com/halmasieh/Spotify_Analysis/blob/Fiel_Branch/Resources/README_links/random_forest.png)
+![rf_summary](https://github.com/halmasieh/Spotify_Analysis/blob/Fiel_Branch/Resources/README_links/rf_artits.png)
 
 #### Model 5: K-Fold Cross Validation (artist_popularity)
 ![kf_summary](https://github.com/halmasieh/Spotify_Analysis/blob/Fiel_Branch/Resources/README_links/rf_artits.png)
@@ -103,6 +103,8 @@ The following models were examined on two classifiers: artist_popularity and tra
 
 The reported results for both classifiers and accuracy scores show that the Random Forest Classifier is the most compatible with both datasets
 ![roc_curve](https://github.com/halmasieh/Spotify_Analysis/blob/Fiel_Branch/Resources/README_links/results_artists.png)
+
+Notebooks used for the models can be found [here.](https://drive.google.com/drive/folders/17HUn1sSz_eTYTjKz1lcZEC0mF0mMt7H9?usp=sharing)
 
 ### Analysis
 
