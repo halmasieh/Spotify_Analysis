@@ -1,4 +1,5 @@
-# Spotify Analysis
+
+# Spotify_Analysis
 
 ## Objective:
 Spotify's Popularity index uses an algorithm to evaluate a song, largely based off of the number of plays a song gets. The better the evaluation, the more likely an artist and their music will be recommended to a larger number of viewers. Said simply, the greater a song's Popularity index, the greater its presence in the Spotify community.
