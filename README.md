@@ -82,29 +82,27 @@ The following models were examined on two classifiers: artist_popularity and tra
 
 #### Model 1: Logistic Regression (artist_popularity)
 
-![lr_summary](https://github.com/halmasieh/Spotify_Analysis/blob/Fiel_Branch/Resources/README_links/logistic_regression.png)
+![lr_summary](https://github.com/halmasieh/Spotify_Analysis/blob/Fiel_Branch/Resources/README_links/lr_artists.png)
 
 #### Model 2: Easy Ensemble AdaBoost Classifier (artist_popularity)
 
-![eea_summary](https://github.com/halmasieh/Spotify_Analysis/blob/Fiel_Branch/Resources/README_links/EEA.png)
+![eea_summary](https://github.com/halmasieh/Spotify_Analysis/blob/Fiel_Branch/Resources/README_links/eea_artists.png)
 
 #### Model 3: Decision Trees (artist_popularity)
 
-![dt_summary](https://github.com/halmasieh/Spotify_Analysis/blob/Fiel_Branch/Resources/README_links/decision_trees.png)
+![dt_summary](https://github.com/halmasieh/Spotify_Analysis/blob/Fiel_Branch/Resources/README_links/dt_artists.png)
 
 #### Model 4: Random Forest (artist_popularity)
 
 ![rf_summary](https://github.com/halmasieh/Spotify_Analysis/blob/Fiel_Branch/Resources/README_links/random_forest.png)
 
 #### Model 5: K-Fold Cross Validation (artist_popularity)
-The Median Accuracy Score for the K-Fold cross validation, such that k=10, is 0.82 and the ROC curve of all the folds indicates one area. There are no significant changes to the fold accuracy score.
-
-For further details regarding the K-Fold Cross Validation as well as the other models used, please see [here.](https://github.com/halmasieh/Spotify_Analysis/blob/Homa_branch/ML_models_target_artists.ipynb) The same logic and models are applied to the tracks_popularity classifier [here.](https://github.com/halmasieh/Spotify_Analysis/blob/Homa_branch/ML_models_target_tracks%20.ipynb)
+![kf_summary](https://github.com/halmasieh/Spotify_Analysis/blob/Fiel_Branch/Resources/README_links/rf_artits.png)
 
 #### Results (artist_popularity)
 
 The reported results for both classifiers and accuracy scores show that the Random Forest Classifier is the most compatible with both datasets
-![roc_curve](https://github.com/halmasieh/Spotify_Analysis/blob/Fiel_Branch/Resources/README_links/results.png)
+![roc_curve](https://github.com/halmasieh/Spotify_Analysis/blob/Fiel_Branch/Resources/README_links/results_artists.png)
 
 ### Analysis
 
