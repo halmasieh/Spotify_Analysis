@@ -10,3 +10,5 @@ Vital few v/s trivial many
 - Alternatively - the pareto principle could be examined with respect to the percentage of total songs v/s the popularity enjoyed
 - Can revenue and popularity both be treated as zero-sum entities? Exclusivity should not be an issue here >> the same person could buy more than one record and also rate different songs as 5s or 4s.
 - 
+The core idea of the project is to investigate whether a disparity exists and if so, what factors influence it
+* What percentage of the total artists get above 90 on the popularity scale
