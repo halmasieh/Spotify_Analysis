@@ -112,7 +112,7 @@ With the data cleaned and the model run, the final step is to analyze the findin
 
 In order to present the information in a coherent and digestible form, we will utilize Tableau to visualize the outcomes and discuss the findings of this analysis.
 
- [Spotify Analysis Dashboard](https://public.tableau.com/app/profile/ranvir.singh.gill/viz/Spotify_Analysis_16222616687520/Story1)
+ [Spotify Analysis Dashboard](https://public.tableau.com/app/profile/ranvir.singh.gill/viz/Spotify_Analysis_16222616687520/Spotify_Analysis_StoryBoard)
 
 #### Key Points:
 
