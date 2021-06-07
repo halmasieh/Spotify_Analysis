@@ -110,6 +110,7 @@ The reported results for both classifiers and accuracy scores show that the Rand
 Notebooks used for the models can be found below:
 
 [Popularity by Artists](https://github.com/halmasieh/Spotify_Analysis/blob/main/ML_models_target_artists.ipynb)
+
 [Popularity by Track](https://github.com/halmasieh/Spotify_Analysis/blob/main/ML_models_target_tracks.ipynb)
 
 ### Analysis
