@@ -103,7 +103,7 @@ The following models were examined on two classifiers: artist_popularity and tra
 
 ##### ROC
 
-The reported results for both classifiers and accuracy scores show that the Random Forest Classifier is the most compatible with both datasets. Looking at the Precision-Recall graph, the accuracy of the Random Forest model was not affected affected by the feature selection, hence the decision to leave weaker features in has no negative impact while having the benefit of highlighting was _does not_ affect our model
+The reported results for both classifiers and accuracy scores show that the Random Forest Classifier is the most compatible with both datasets. Looking at the Precision-Recall graph, the accuracy of the Random Forest model was not affected by the feature selection, hence the decision to leave weaker features in has no negative impact while having the benefit of highlighting was _does not_ affect our model
 
 ![roc_curve](https://github.com/halmasieh/Spotify_Analysis/blob/Fiel_Branch/Resources/README_links/results_artists.png)
 
