@@ -96,12 +96,15 @@ The following models were examined on two classifiers: artist_popularity and tra
 
 ![rf_summary](https://github.com/halmasieh/Spotify_Analysis/blob/Fiel_Branch/Resources/README_links/rf_artits.png)
 
-#### Model 5: K-Fold Cross Validation (artist_popularity)
-![kf_summary](https://github.com/halmasieh/Spotify_Analysis/blob/Fiel_Branch/Resources/README_links/rf_artits.png)
-
 #### Results (artist_popularity)
 
-The reported results for both classifiers and accuracy scores show that the Random Forest Classifier is the most compatible with both datasets
+##### Precision-Recall (artist_popularity)
+![pr_artists](https://github.com/halmasieh/Spotify_Analysis/blob/Fiel_Branch/Resources/README_links/precision_recall_artists.png)
+
+##### ROC
+
+The reported results for both classifiers and accuracy scores show that the Random Forest Classifier is the most compatible with both datasets. Looking at the Precision-Recall graph, the accuracy of the Random Forest model was not affected affected by the feature selection, hence the decision to leave weaker features in has no negative impact while having the benefit of highlighting was _does not_ affect our model
+
 ![roc_curve](https://github.com/halmasieh/Spotify_Analysis/blob/Fiel_Branch/Resources/README_links/results_artists.png)
 
 Notebooks used for the models can be found [here.](https://drive.google.com/drive/folders/17HUn1sSz_eTYTjKz1lcZEC0mF0mMt7H9?usp=sharing)
