@@ -78,7 +78,7 @@ Result: Keep All Features
 
 Modelling
 
-The following models were examined on two classifiers: artist_popularity and tracks_popularity. Below are summaries for artist_popularity. For the summaries of both artist_popularity and tracks_popularity, please refer to the [Slides documentation.](https://docs.google.com/presentation/d/11CgZVxAH2_xvv5FXoSW-5RmUFnX69TW4L199me3wOss/edit?usp=sharing)
+The following models were examined on two classifiers: artist_popularity and tracks_popularity. Below are summaries for artist_popularity. 
 
 #### Model 1: Logistic Regression (artist_popularity)
 
